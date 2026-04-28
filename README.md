@@ -1,5 +1,17 @@
 # BLAKE3
 
+## Lux Fork
+
+This is a Lux Industries fork of the canonical upstream:
+- **Upstream**: https://github.com/BLAKE3-team/BLAKE3
+- **Pinned commit**: `1b5714c`
+- **Pinned tag**: `v1.5.0`
+- **License**: CC0 / Apache-2.0 dual (preserved from upstream — see `LICENSE_CC0`, `LICENSE_A2`, `LICENSE_A2LLVM`, provenance in `LICENSE-NOTICE.md`)
+- **Lux extensions**: NONE (verbatim snapshot of upstream).
+- **Tag policy**: track upstream semver verbatim. Divergence (if ever required) signaled by next-minor bump, NOT prerelease suffixes.
+
+---
+
 BLAKE3 is a cryptographic hash function that is:
 
 - **Much faster** than MD5, SHA-1, SHA-2, SHA-3, and BLAKE2.
